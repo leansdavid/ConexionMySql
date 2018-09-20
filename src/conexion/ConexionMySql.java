@@ -10,5 +10,10 @@ package conexion;
  * @author USUARIO
  */
 public class ConexionMySql {
- //hhhh   
+    
+    
+ public static void main(String[] args){
+  Conexion objConex = new Conexion();
+  objConex.conectar();
+ }
 }
