@@ -13,7 +13,7 @@ public class Conexion{
         try{
         
            Class.forName("comm.mysql.idbc.Driver");
-           conex = DriverManager.getConnection("jdbc:mysql://localhost/ConexionMSql","root","");
+           conex = DriverManager.getConnection("jdbc:mysql://localhost/conexionmsql","root","");
            System.out.print("Conexion establecida");
         }catch(Exception e){
             System.out.print(e.getMessage());
